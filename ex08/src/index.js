@@ -8,9 +8,9 @@ function main(){
     myY = 19;
     myZ = 24;
 
-    myX = myX + 3;
-    myY = myY + 17;
-    myZ = myZ - 20;
+    myX += 3;
+    myY += 17;
+    myZ -= 20;
 
     return {
         myX,
